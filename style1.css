@@ -1,0 +1,29 @@
+.aqana {
+  display: none;
+}
+body {
+  display: block;
+
+  background-color: rgb(1, 1, 1);
+}
+.bulbuka {
+  align-self: center;
+  justify-self: center;
+  /* margin: 50px; */
+  width: 100%;
+  height: 100vh;
+}
+.turn {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  background-color: rgb(68, 133, 190);
+  font-weight: bolder;
+  border: none;
+  border-radius: 10px;
+}
+.turn:hover {
+  color: black;
+  width: 205px;
+  height: 85px;
+}

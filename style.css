@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url("backg.jpg");
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+.sections {
+  width: 55%;
+  height: 55vh;
+  background-color: #b2c2bf;
+  display: flexbox;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border-radius: 5px;
+}
+.animation1 {
+  border-radius: 5px;
+}
+.poto {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.poto:hover {
+  width: 320px;
+  height: 320px;
+}
+.poto1:hover {
+  width: 320px;
+  height: 320px;
+}
+.shipp:hover {
+  width: 320px;
+  height: 320px;
+}
+.poto1 {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.shipp {
+  width: 300px;
+  height: 300px;
+  padding: 5px;
+  border-radius: 5px;
+}
+@media all and (max-width: 520px) {
+  .sections {
+    width: 55%;
+    height: 55vh;
+    background-color: #b2c2bf;
+    display: flexbox;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+  }
+}
+@media all and (max-width: 1500px) {
+  .sections {
+    width: auto;
+    background-color: none;
+  }
+}

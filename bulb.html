@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style1.css" />
+    <title>bulb</title>
+  </head>
+  <body>
+    <button class="turn">Turn on-Turn off</button>
+    <img
+      src="the-facts-about-incandescent-light-bulbs.png"
+      class="bulbuka"
+      class="aqana"
+    />
+
+    <script type="text/javascript">
+      const turn = document.querySelector(".turn");
+      const bulbuka = document.querySelector(".bulbuka");
+
+      turn.addEventListener("click", function () {
+        console.log("aq iyo sparta");
+        bulbuka.classList.toggle("aqana");
+      });
+    </script>
+  </body>
+</html>

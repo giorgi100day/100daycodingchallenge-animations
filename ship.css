@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background-image: url("mountain.jpg");
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.wavee {
+  height: 250px;
+  width: 1500%;
+  display: block;
+  background-image: url("wave1.jpg");
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  background-repeat: repeat-x;
+  animation: wavee 10s linear infinite;
+}
+@keyframes wavee {
+  100% {
+    transform: translateX(-3400px);
+  }
+}
+
+.ship {
+  width: 400px;
+  left: 50%;
+  bottom: 100px;
+  transform: translateX(-50%);
+  position: absolute;
+  z-index: 2;
+}
+.ship img {
+  width: 100%;
+  animation: ship 1s linear infinite;
+}
+@keyframes ship {
+  100% {
+    transform: translateY(-8px);
+  }
+  50% {
+    transform: translateY(8px);
+  }
+  0% {
+    transform: translateY(-8px);
+  }
+}
